@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(217, 203, 186);
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student pass registration form</h1><br>
+    <form action="./task7.html">
+    <label for="f_name">First name</label>
+    <input type="text" id="f_name" name="first name" required><br><br>
+    <label for="l_name">Last name</label>
+    <input type="text" id="l_name" name="last name" required><br><br>
+    <label for="mail">Email</label>
+    <input type="email" id="mail" name="mail id" required><br><br>
+    <label for="pswd">Password:</label>
+    <input type="password" id="pswd" name="pswd" required><br><br>
+    <label for="pswd"> Confirm Password:</label>
+    <input type="password" id="pswd" name="pswd" required><br><br>
+    <label for="num">Mobile</label>
+    <input type="tel" id="num" name="ph no" required><br><br>
+    <label for="addr">Address</label>
+    <textarea id="addr" name="adress"></textarea><br><br>
+    <p><b>Select your course:</b></p>
+    <select name="course">
+        <option value="course">Mca</option>
+        <option value="course">Mba</option>
+        <option value="course">Msc</option>
+        <option value="course">phd</option>
+    </select><br><br>
+    <label for="gender"><b>Gender:</b></label><br><br>
+    <input type="radio" id="gender" name="gender" required>male
+    <input type="radio" id="gender" name="gender" required>female
+    <input type="radio" id="gender" name="gender" required>others<br><br>
+    <label for=""><b>Accept</b></label><br>
+    <input type="checkbox" id="accept" name="accept" value="yes">I have the read all the terms and conditions and all the given information is true.<br><br>
+    <input type="submit" value="submit"/>
+    </form>
+</body>
+</html>
